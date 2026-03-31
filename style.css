@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-header P {
+header .deskripsi {
   font-size: 2vw;
   background-color: aqua;
   text-align: center;
@@ -31,4 +31,46 @@ header .judul {
   width: 100%;
   font-size: 4vw;
   background-color: aquamarine;
+}
+
+.warp {
+  width: 950px;
+  margin: 25px auto;
+}
+
+nav.menu ul {
+  overflow: hidden;
+  color: #fff;
+  list-style: none;
+  float: left;
+  padding: 0;
+  width: 100%;
+  background: #1abc9c;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+  box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+}
+nav.menu ul li {
+  margin: 0;
+  float: left;
+  margin-right: 10px;
+}
+nav.menu ul a {
+  padding: 25px;
+  display: block;
+  font-width: 600;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  text-align: center;
+}
+nav.menu ul a:hover {
+  text-decoration: underline;
+  background: #16a085;
+}
+.sidebar {
+  float: right;
+  width: 275px;
 }

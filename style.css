@@ -82,3 +82,37 @@ nav.menu ul a:hover {
 .sidebar .widget:hover {
   border-bottom: 2px solid #3498db;
 }
+.sidebar .widget h2 {
+  padding: 0;
+  margin: 0 0 15px;
+  color: #3498db;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.sidebar .widget p {
+  font-size: 14px;
+}
+
+.sidebar .widget p:last-child {
+  margin: 0;
+}
+.blog {
+  float: left;
+}
+
+.conteudo {
+  width: 600px;
+  padding: 25px;
+  margin: 25px auto;
+  background: #fff;
+  border: 1px solid #dedede;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+  box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.35);
+}
+.conteudo img {
+  min-width: 650px;
+  margin: 0 0 25px -25px;
+  max-width: 650px;
+}

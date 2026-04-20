@@ -109,6 +109,15 @@ nav.menu ul a:hover {
 .conteudo .continue-lendo:hover {
   margin-left: 10px;
 }
+.judul-post {
+  text-align: center;
+}
+.deskripsi-post {
+  text-align: justify;
+  margin: 2px;
+  line-height: 20px;
+}
+
 .post-info {
   float: left;
   font-size: 12px;
